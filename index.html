@@ -25,6 +25,16 @@
 <!-- CSS Theme -->
 <link id="theme" rel="stylesheet" href="assets/css/themes/theme-serif-blue.css" />
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128256332-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-128256332-1');
+</script>
+
 </head>
 
 <body>
@@ -48,9 +58,8 @@
         <ul class="nav nav-vertical">
             <li><a href="#start"><i class="pe-7s-home"></i><span>Start</span></a></li>
             <li><a href="#resume"><i class="pe-7s-ribbon"></i><span>Resume</span></a></li>
+            <li><a href="#skills"><i class="pe-7s-magic-wand"></i><span>Skills</span></a></li>
             <li><a href="#portfolio"><i class="pe-7s-monitor"></i><span>Portfolio</span></a></li>
-            <li><a href="#clients"><i class="pe-7s-comment"></i><span>Clients</span></a></li>
-            <li><a href="#latest-posts"><i class="pe-7s-copy-file"></i><span>Latest Posts</span></a></li>
             <li><a href="#contact"><i class="pe-7s-mail"></i><span>Contact</span></a></li>
         </ul>
         <span class="selector"></span>
@@ -59,9 +68,9 @@
     <!-- Bottom -->
     <div class="bottom text-center">
         <ul class="nav-icons nav-sm">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.facebook.com/kizzasw"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/KizzaSW"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/kswilliames/"><i class="fa fa-linkedin"></i></a></li>
         </ul>
     </div>
 
@@ -87,7 +96,7 @@
     <!-- Section - Resume -->
     <section id="resume" class="section">
         <div class="container container-custom">
-            <h3 class="title">Summary</h3>
+            <h3 class="title" style="text-align: center;">Summary</h3>
             <p class="lead text-muted mb-80">Kieran is a professional full-stack web developer with a passion for the intersect between software automation 
                 and user experience.<br /><br /> He has three years of experience in the industry creating web software solutions for small to large organisations.
                 <br /><br />
@@ -189,239 +198,278 @@
                         </div>
                     </div>
                 </div>
+                
+            </div>
+        </div>
+
+    </section>
+
+    <section id="skills" class="section dark bg-dark">
+        <!-- BG Image -->
+        <div class="bg-image"><img src="assets/img/photos/sai-kiran-anagani-61187-unsplash.jpg" alt=""></div>
+
+        <div class="container container-custom">
+            <div class="row masonry long-spaces">
+                <div class="masonry-sizer col-sm-6 col-xs-12"></div>
                 <!-- Specialities -->
                 <div class="masonry-item col-sm-6 col-xs-12">
-                    <div class="resume-card">
-                        <h3 class="title">My Specialities</h3>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <!-- Feature -->
-                                <div class="feature feature-2">
-                                    <span class="icon icon-primary"><i class="pe-7s-browser"></i></span>
-                                    <div class="feature-content">
-                                        <h4>Web Apps</h4>
+                        <div class="resume-card resume-card-dark">
+                            <h3 class="title">My Specialities</h3>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <!-- Feature -->
+                                    <div class="feature feature-2">
+                                        <span class="icon icon-primary"><i class="pe-7s-browser"></i></span>
+                                        <div class="feature-content">
+                                            <h4>Web Apps</h4>
+                                        </div>
+                                    </div>
+                                    <!-- Feature -->
+                                    <div class="feature feature-2">
+                                        <span class="icon icon-primary"><i class="pe-7s-chat"></i></span>
+                                        <div class="feature-content">
+                                            <h4>Management</h4>
+                                        </div>
                                     </div>
                                 </div>
-                                <!-- Feature -->
-                                <div class="feature feature-2">
-                                    <span class="icon icon-primary"><i class="pe-7s-phone"></i></span>
-                                    <div class="feature-content">
-                                        <h4>Management</h4>
+                                <div class="col-lg-6">
+                                    <!-- Feature -->
+                                    <div class="feature feature-2">
+                                        <span class="icon icon-primary"><i class="pe-7s-monitor"></i></span>
+                                        <div class="feature-content">
+                                            <h4>Design</h4>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <!-- Feature -->
-                                <div class="feature feature-2">
-                                    <span class="icon icon-primary"><i class="pe-7s-monitor"></i></span>
-                                    <div class="feature-content">
-                                        <h4>Web Design</h4>
-                                    </div>
-                                </div>
-                                <!-- Feature -->
-                                <div class="feature feature-2">
-                                    <span class="icon icon-primary"><i class="pe-7s-chat"></i></span>
-                                    <div class="feature-content">
-                                        <h4>Strategy</h4>
+                                    <!-- Feature -->
+                                    <div class="feature feature-2">
+                                        <span class="icon icon-primary"><i class="pe-7s-helm"></i></span>
+                                        <div class="feature-content">
+                                            <h4>Strategy</h4>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
                 <!-- Languages -->
                 <div class="masonry-item col-sm-6 col-xs-12">
-                        <div class="resume-card">
-                            <h3 class="title">Languages & Frameworks</h3>
-                            
-                            <div class="col-sm-6 col-xs-12">
-                                    <h4>Front-end</h4>
+                        <div class="resume-card resume-card-dark">
+                            <div class="row">
+                                <h3 class="title">Languages & Frameworks</h3>
+                                
+                                <div class="col-sm-6 col-xs-12">
+                                    <hr />
+                                        <h4>Front-end</h4>
+                                        <hr />
+                                        <div class="skill-card">
+                                            <!-- Skill -->
+                                        <div class="skill">
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="100"></div>
+                                                </div>
+                                                <h5>HTML5</h5>
+                                            </div>
+                                            <!-- Skill -->
+                                            <div class="skill">
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="90"></div>
+                                                </div>
+                                                <h5>CSS7</h5>
+                                            </div>
+                                            <!-- Skill -->
+                                            <div class="skill">
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60"></div>
+                                                </div>
+                                                <h5>Javascript/jQuery</h5>
+                                            </div>
+                                        </div>
+                                </div>
+                                
+                                <div class="col-sm-6 col-xs-12">
+                                        <hr />
+                                    <h4>Javascript</h4>
+                                    <hr />
                                     <div class="skill-card">
                                         <!-- Skill -->
-                                    <div class="skill">
+                                        <div class="skill">
                                             <div class="progress">
                                                 <div class="progress-bar" role="progressbar" aria-valuenow="100"></div>
                                             </div>
-                                            <h5>HTML5</h5>
+                                            <h5>Node.js</h5>
                                         </div>
                                         <!-- Skill -->
                                         <div class="skill">
                                             <div class="progress">
                                                 <div class="progress-bar" role="progressbar" aria-valuenow="90"></div>
                                             </div>
-                                            <h5>CSS7</h5>
+                                            <h5>Express.js</h5>
                                         </div>
                                         <!-- Skill -->
                                         <div class="skill">
                                             <div class="progress">
                                                 <div class="progress-bar" role="progressbar" aria-valuenow="60"></div>
                                             </div>
-                                            <h5>Javascript/jQuery</h5>
+                                            <h5>React.js</h5>
                                         </div>
-                                    </div>
-                            </div>
-                            
-                            <div class="col-sm-6 col-xs-12">
-                                <h4>Javascript</h4>
-                                <div class="skill-card">
-                                    <!-- Skill -->
-                                    <div class="skill">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="100"></div>
-                                        </div>
-                                        <h5>Node.js</h5>
-                                    </div>
-                                    <!-- Skill -->
-                                    <div class="skill">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="90"></div>
-                                        </div>
-                                        <h5>Express.js</h5>
-                                    </div>
-                                    <!-- Skill -->
-                                    <div class="skill">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="60"></div>
-                                        </div>
-                                        <h5>React.js</h5>
                                     </div>
                                 </div>
-                            </div>
-                            
-                            <div class="col-sm-6 col-xs-12">
-                                <h4>Python</h4>
-                                <div class="skill-card">
-                                    <!-- Skill -->
-                                    <div class="skill">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="100"></div>
-                                        </div>
-                                        <h5>Django</h5>
-                                    </div>
-                                    <!-- Skill -->
-                                    <div class="skill">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="90"></div>
-                                        </div>
-                                        <h5>Django REST Framework</h5>
-                                    </div>
-                                    <!-- Skill -->
-                                    <div class="skill">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="60"></div>
-                                        </div>
-                                        <h5>Data Analysis</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-sm-6 col-xs-12">
-                                <h4>C#</h4>
-                                <div class="skill-card">
-                                    <!-- Skill -->
-                                    <div class="skill">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="100"></div>
-                                        </div>
-                                        <h5>.NET Core MVC</h5>
-                                    </div>
-                                    <!-- Skill -->
-                                    <div class="skill">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="90"></div>
-                                        </div>
-                                        <h5>Entity Framework</h5>
-                                    </div>
-                                    <!-- Skill -->
-                                    <div class="skill">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="60"></div>
-                                        </div>
-                                        <h5>Dapper</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-12 col-xs-12">
-                                    <h4>Database</h4>
+                                
+                                <div class="col-sm-6 col-xs-12">
+                                        <hr />
+                                    <h4>Python</h4>
+                                    <hr />
                                     <div class="skill-card">
                                         <!-- Skill -->
                                         <div class="skill">
                                             <div class="progress">
                                                 <div class="progress-bar" role="progressbar" aria-valuenow="100"></div>
                                             </div>
-                                            <h5>SQL Server/MySQL</h5>
+                                            <h5>Django</h5>
                                         </div>
                                         <!-- Skill -->
                                         <div class="skill">
                                             <div class="progress">
                                                 <div class="progress-bar" role="progressbar" aria-valuenow="90"></div>
                                             </div>
-                                            <h5>MongoDB</h5>
+                                            <h5>Django REST Framework</h5>
                                         </div>
-                                    </div>   
+                                        <!-- Skill -->
+                                        <div class="skill">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="60"></div>
+                                            </div>
+                                            <h5>Data Analysis</h5>
+                                        </div>
+                                    </div>
                                 </div>
+                                
+                                <div class="col-sm-6 col-xs-12">
+                                        <hr />
+                                    <h4>C#</h4>
+                                    <hr />
+                                    <div class="skill-card">
+                                        <!-- Skill -->
+                                        <div class="skill">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="100"></div>
+                                            </div>
+                                            <h5>.NET Core MVC</h5>
+                                        </div>
+                                        <!-- Skill -->
+                                        <div class="skill">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="90"></div>
+                                            </div>
+                                            <h5>Entity Framework</h5>
+                                        </div>
+                                        <!-- Skill -->
+                                        <div class="skill">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="60"></div>
+                                            </div>
+                                            <h5>Dapper</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-xs-12">
+                                        <hr />
+                                        <h4>Databases</h4>
+                                        <hr />
+                                        <div class="skill-card">
+                                            <!-- Skill -->
+                                            <div class="skill">
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="100"></div>
+                                                </div>
+                                                <h5>SQL Server/MySQL</h5>
+                                            </div>
+                                            <!-- Skill -->
+                                            <div class="skill">
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="90"></div>
+                                                </div>
+                                                <h5>MongoDB</h5>
+                                            </div>
+                                        </div>   
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                </div>
                 <!-- Skills -->
                 <div class="masonry-item col-sm-6 col-xs-12">
-                    <div class="resume-card">
+                    <div class="resume-card resume-card-dark">
                         <h3 class="title">Skills</h3>
                         <!-- Skill -->
                         <div class="skill">
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="85"></div>
                             </div>
-                            <h5>Adobe Photoshop / Sketch</h5>
+                            <h5>Project Management</h5>
                         </div>
                         <!-- Skill -->
                         <div class="skill">
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="90"></div>
                             </div>
-                            <h5>HTML / CSS</h5>
+                            <h5>Development Team Management</h5>
                         </div>
                         <!-- Skill -->
                         <div class="skill">
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="75"></div>
                             </div>
-                            <h5>JavaScript</h5>
+                            <h5>Website / Software Design and Implementation</h5>
                         </div>
                         <!-- Skill -->
                         <div class="skill">
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="60"></div>
                             </div>
-                            <h5>AgnularJS</h5>
+                            <h5>Source Control and Deployment</h5>
                         </div>
                     </div>
                 </div>
-                
-                
                 <!-- Hobbies -->
                 <div class="masonry-item col-sm-6 col-xs-12">
-                    <div class="resume-card">
+                    <div class="resume-card resume-card-dark">
                         <h3 class="title">Hobbies &amp; Interests</h3>
                         <div class="row">
-                            <div class="col-sm-4">
+                            <div class="col-xs-4">
                                 <!-- Feature -->
                                 <div class="feature feature-1 text-center">
-                                    <span class="icon icon-primary"><i class="pe-7s-bicycle"></i></span>
-                                    <h4>Sport</h4>
+                                    <span class="icon icon-primary"><i class="pe-7s-mouse"></i></span>
+                                    <h4>Coding</h4>
                                 </div>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-xs-4">
                                 <!-- Feature -->
                                 <div class="feature feature-1 text-center">
-                                    <span class="icon icon-primary"><i class="pe-7s-headphones"></i></span>
+                                    <span class="icon icon-primary"><i class="pe-7s-film"></i></span>
+                                    <h4>Film</h4>
+                                </div>
+                            </div>
+                            <div class="col-xs-4">
+                                <!-- Feature -->
+                                <div class="feature feature-1 text-center">
+                                    <span class="icon icon-primary"><i class="pe-7s-music"></i></span>
                                     <h4>Music</h4>
                                 </div>
                             </div>
-                            <div class="col-sm-4">
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-4">
                                 <!-- Feature -->
                                 <div class="feature feature-1 text-center">
-                                    <span class="icon icon-primary"><i class="pe-7s-rocket"></i></span>
-                                    <h4>Travelling</h4>
+                                    <span class="icon icon-primary"><i class="pe-7s-joy"></i></span>
+                                    <h4>Gaming</h4>
+                                </div>
+                            </div>
+                            <div class="col-xs-4">
+                                <!-- Feature -->
+                                <div class="feature feature-1 text-center">
+                                    <span class="icon icon-primary"><i class="pe-7s-science"></i></span>
+                                    <h4>Science</h4>
                                 </div>
                             </div>
                         </div>
@@ -429,7 +477,6 @@
                 </div>
             </div>
         </div>
-
     </section>
 
     <!-- Section - Portfolio -->
@@ -440,8 +487,8 @@
             <div class="tabs-wrapper">
                 <ul class="filter nav nav-tabs" data-filter-list="#works-list">
                     <li class="active"><a href="#" data-filter="*">All</a></li>
-                    <li><a href="#" data-filter=".webdesign">Webdesign</a></li>
-                    <li><a href="#" data-filter=".mobileApps">Mobile Apps</a></li>
+                    <li><a href="#" data-filter=".webapps">Web Apps</a></li>
+                    <li><a href="#" data-filter=".webdesign">Web Design</a></li>
                     <li><a href="#" data-filter=".socialMedia">Social Media</a></li>
                 </ul>
                 <span class="selector"></span>
@@ -452,13 +499,13 @@
         <div id="works-list" class="filter-list row masonry no-spaces">
             <div class="masonry-sizer col-md-4 col-sm-6 col-xs-12"></div>
             <!-- Image Box -->
-            <div class="mobileApps masonry-item col-md-4 col-sm-6 col-xs-12">
+            <div class="webapps masonry-item col-md-4 col-sm-6 col-xs-12">
                 <div class="image-box">
-                    <div class="image"><a href="project-example.html" data-toggle="ajax-modal"><img src="assets/img/works/work01.jpg" alt=""></a></div>
+                    <div class="image"><a href="#" data-toggle="ajax-modal"><img src="assets/img/works/missing_nda.png" alt=""></a></div>
                     <div class="hover">
-                        <a href="project-example.html" data-toggle="ajax-modal">
-                            <h4 class="mb-0">Mountain View</h4>
-                            <span class="text-muted">Mobile Apps</span>
+                        <a href="#" data-toggle="ajax-modal">
+                            <h4 class="mb-0">Roster Management Portal (OracleCMS)</h4>
+                            <span class="text-muted">Web Apps</span>
                         </a>
                     </div>
                 </div>
@@ -466,23 +513,23 @@
             <!-- Image Box -->
             <div class="webdesign masonry-item col-md-4 col-sm-6 col-xs-12">
                 <div class="image-box">
-                    <div class="image"><a href="project-example.html" data-toggle="ajax-modal"><img src="assets/img/works/work02.jpg" alt=""></a></div>
+                    <div class="image"><a href="https://kswilliames.github.io/airwareness/" data-toggle="ajax-modal"><img src="assets/img/works/work01.png" alt=""></a></div>
                     <div class="hover">
-                        <a href="project-example.html" data-toggle="ajax-modal">
-                            <h4 class="mb-0">On the Beach</h4>
-                            <span class="text-muted">Webdesign</span>
+                        <a href="https://kswilliames.github.io/airwareness/" data-toggle="ajax-modal">
+                            <h4 class="mb-0">Airwareness Website (Airwareness)</h4>
+                            <span class="text-muted">Web Design</span>
                         </a>
                     </div>
                 </div>
             </div>
             <!-- Image Box -->
-            <div class="socialMedia masonry-item col-md-4 col-sm-6 col-xs-12">
+            <div class="webapps masonry-item col-md-4 col-sm-6 col-xs-12">
                 <div class="image-box">
                     <div class="image"><a href="project-example.html" data-toggle="ajax-modal"><img src="assets/img/works/work03.jpg" alt=""></a></div>
                     <div class="hover">
                         <a href="project-example.html" data-toggle="ajax-modal">
-                            <h4 class="mb-0">Cast Away</h4>
-                            <span class="text-muted">Social Media</span>
+                            <h4 class="mb-0">Igloo Task Submission System (Pebbled)</h4>
+                            <span class="text-muted">Web Apps</span>
                         </a>
                     </div>
                 </div>
@@ -493,8 +540,8 @@
                     <div class="image"><a href="project-example.html" data-toggle="ajax-modal"><img src="assets/img/works/work04.jpg" alt=""></a></div>
                     <div class="hover">
                         <a href="project-example.html" data-toggle="ajax-modal">
-                            <h4 class="mb-0">On the Desert</h4>
-                            <span class="text-muted">Webdesign</span>
+                            <h4 class="mb-0">Pebbled Website (Pebbled)</h4>
+                            <span class="text-muted">Web Design</span>
                         </a>
                     </div>
                 </div>
@@ -522,144 +569,6 @@
                         </a>
                     </div>
                 </div>
-            </div>
-        </div>
-
-    </section>
-
-    <!-- Section - Clients -->
-    <section id="clients" class="section bg-light">
-
-        <div class="container container-custom">
-            <h3 class="text-center mb-80">What clients say?</h3>
-            <div class="row masonry">
-                <div class="masonry-sizer col-sm-6 col-xs-12"></div>
-                <div class="masonry-item col-sm-6 col-xs-12">
-                    <!-- Blockquote -->
-                    <blockquote class="animated" data-animation="fadeIn">
-                        <p>Sed lacinia, nibh sit amet auctor vestibulum, enim risus condimentum erat, quis vestibulum mi ligula a nulla. Nulla vitae pharetra tellus.Aenean ac tincidunt augue, volutpat ullamcorper elit.</p>
-                        <footer>
-                            <img src="assets/img/avatars/avatar01.jpg" alt="">
-                            <div class="content">
-                                <span class="name">Jerry Nowak</span>
-                                <div class="caption">CEO at Google Inc.</div>
-                            </div>
-                        </footer>
-                    </blockquote>
-                </div>
-                <div class="masonry-item col-sm-6 col-xs-12">
-                    <!-- Blockquote -->
-                    <blockquote class="animated" data-animation="fadeIn">
-                        <p>Quis vestibulum mi ligula a nulla. Nulla vitae pharetra tellus. Aenean ac tincidunt augue, volutpat ullamcorper elit.</p>
-                        <footer>
-                            <div class="content">
-                                <span class="name">Jerry Nowak</span>
-                                <div class="caption">CEO at Google Inc.</div>
-                            </div>
-                        </footer>
-                    </blockquote>
-                </div>
-                <div class="masonry-item col-sm-6 col-xs-12">
-                    <!-- Blockquote -->
-                    <blockquote class="animated" data-animation="fadeIn">
-                        <p>Nibh sit amet auctor vestibulum, enim risus condimentum erat, quis vestibulum mi ligula a nulla. Nulla vitae pharetra tellus.Aenean ac tincidunt augue, volutpat.</p>
-                        <footer>
-                            <img src="assets/img/avatars/avatar02.jpg" alt="">
-                            <div class="content">
-                                <span class="name">Jerry Nowak</span>
-                                <div class="caption">CEO at Google Inc.</div>
-                            </div>
-                        </footer>
-                    </blockquote>
-                </div>
-                <div class="masonry-item col-sm-6 col-xs-12">
-                    <!-- Blockquote -->
-                    <blockquote class="animated" data-animation="fadeIn">
-                        <p>Enim risus condimentum erat, quis vestibulum mi ligula a nulla. Nulla vitae pharetra tellus.Aenean ac tincidunt augue, volutpat ullamcorper elit.</p>
-                        <footer>
-                            <img src="assets/img/avatars/avatar03.jpg" alt="">
-                            <div class="content">
-                                <span class="name">Jerry Nowak</span>
-                                <div class="caption">CEO at Google Inc.</div>
-                            </div>
-                        </footer>
-                    </blockquote>
-                </div>
-                <div class="masonry-item col-sm-6 col-xs-12">
-                    <!-- Blockquote -->
-                    <blockquote class="animated" data-animation="fadeIn">
-                        <p>Sed lacinia, nibh sit amet auctor vestibulum, enim risus condimentum erat, quis vestibulum mi ligula a nulla. Nulla vitae pharetra tellus.Aenean ac tincidunt augue, volutpat ullamcorper elit.</p>
-                        <footer>
-                            <img src="assets/img/avatars/avatar05.jpg" alt="">
-                            <div class="content">
-                                <span class="name">Jerry Nowak</span>
-                                <div class="caption">CEO at Google Inc.</div>
-                            </div>
-                        </footer>
-                    </blockquote>
-                </div>
-                <div class="masonry-item col-sm-6 col-xs-12">
-                    <!-- Blockquote -->
-                    <blockquote class="animated" data-animation="fadeIn">
-                        <p>Nulla vitae pharetra tellus. Aenean ac tincidunt augue, volutpat ullamcorper elit.</p>
-                        <footer>
-                            <img src="assets/img/avatars/avatar04.jpg" alt="">
-                            <div class="content">
-                                <span class="name">Jerry Nowak</span>
-                                <div class="caption">CEO at Google Inc.</div>
-                            </div>
-                        </footer>
-                    </blockquote>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <!-- Section - Latest Posts -->
-    <section id="latest-posts" class="section">
-        <div class="container container-custom">
-            <h3 class="text-center mb-80">Latest Posts</h3>
-            <!-- Post / Item -->
-            <article class="post item">
-                <div class="post-image"><img src="assets/img/posts/post01.jpg" alt=""></div>
-                <div class="post-content">
-                    <ul class="post-meta">
-                        <li>24 July, 2016</li>
-                        <li>by Johnatan Doe</li>
-                    </ul>
-                    <h4><a href="blog-post.html">How to find developer to your team?</a></h4>
-                    <p>Nulla leo lectus, commodo porttitor lacus a, placerat facilisis ligula.</p>
-                </div>
-            </article>
-            <!-- Post / Item -->
-            <article class="post item">
-                <div class="post-image"><img src="assets/img/posts/post02.jpg" alt=""></div>
-                <div class="post-content">
-                    <div>
-                        <ul class="post-meta">
-                            <li>24 July, 2016</li>
-                            <li>by Johnatan Doe</li>
-                        </ul>
-                        <h4><a href="blog-post.html">Crazy idea about the most popular search engine</a></h4>
-                        <p>Nulla leo lectus, commodo porttitor lacus a, placerat facilisis ligula.</p>
-                    </div>
-                </div>
-            </article>
-            <!-- Post / Item -->
-            <article class="post item">
-                <div class="post-image"><img src="assets/img/posts/post03.jpg" alt=""></div>
-                <div class="post-content">
-                    <ul class="post-meta">
-                        <li>24 July, 2016</li>
-                        <li>by Johnatan Doe</li>
-                    </ul>
-                    <h4><a href="blog-post.html">Could Brexit trigger European stock crash?</a></h4>
-                    <p>Nulla leo lectus, commodo porttitor lacus a, placerat facilisis ligula.</p>
-                </div>
-            </article>
-            <div class="text-center mt-60">
-                <a href="blog.html" class="btn btn-primary">Go to my blog</a>
             </div>
         </div>
 
@@ -694,14 +603,13 @@
                         </div>
                         <div class="col-sm-6 text-right">
                             <ul class="nav-icons">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="https://www.facebook.com/kizzasw"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/KizzaSW"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/kswilliames/"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <a href="#" class="contact-toggle"></a>
             </div>
         </div>
 
@@ -713,54 +621,6 @@
 <!-- Mobile Nav Toggle -->
 <a href="#" id="vertical-nav-toggle" class="nav-toggle" data-toggle="mobile-nav"><span><span></span></span></a>
 
-<!-- Contact Popup Controls -->
-<div class="contact-popup-ctrl">
-    <a href="#" class="contact-popup-toggle" data-toggle="contact-popup"><span class="typing" data-text='["Have a question?","Write to me!"]'>Write to me!</span></a>
-    <a href="#" class="contact-popup-close" data-toggle="contact-popup"><i class="ti-close"></i></a>
-</div>
-<!-- Contact Popup -->
-<div id="contact-popup" class="contact-popup dark">
-    <div class="v-center row">
-        <div class="col-lg-6 col-md-9">
-            <form id="contact-form" class="validate-form">
-                <div class="head">
-                    <span class="form-status">1/2</span>
-                    <h3>Write to me!</h3>
-                </div>
-                <div class="steps">
-                    <!-- Form Step -->
-                    <div class="step active" data-step="1">
-                        <div class="row">
-                            <div class="form-group col-md-6">
-                                <input id="name" name="name" type="text" class="form-control" placeholder="Your name" required>
-                            </div>
-                            <div class="form-group col-md-6">
-                                <input id="email" name="email" type="text" class="form-control" placeholder="Your e-mail" required>
-                            </div>
-                        </div>
-                        <div class="bottom clearfix">
-                            <nav class="controls">
-                                <a href="#" class="btn btn-white" data-target="form-next-step">Next step<i class="i-after ti-arrow-right"></i></a>
-                            </nav>
-                        </div>
-                    </div>
-                    <!-- Form Step -->
-                    <div class="step" data-step="2">
-                        <textarea name="message" id="message" rows="3" class="form-control" placeholder="Tap here your message..." required></textarea>
-                        <div class="bottom clearfix">
-                            <div class="info"><span>from</span> <em id="sender"></em></div>
-                            <nav class="controls">
-                                <button class="btn btn-link" data-target="form-prev-step"><i class="i-after ti-angle-left"></i></button>
-                                <button type="submit" class="btn btn-white btn-submit"><span>Send a message! <i class="i-after ti-check"></i></span></button>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
-
 <!-- Ajax Modal -->
 <div id="ajax-modal"></div>
 <!-- Ajax Close -->
@@ -768,15 +628,6 @@
 <!-- Ajax Loader -->
 <svg id="ajax-loader" class="loader" width="32px" height="32px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg"><circle class="circle" fill="none" stroke-width="5" stroke-linecap="round" cx="32" cy="32" r="32"></circle></svg>
 
-<!-- Modal / Video -->
-<div class="modal modal-video fade" id="modalVideo" role="dialog">
-    <button class="close" data-dismiss="modal"><i class="ti-close"></i></button>
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <iframe height="500"></iframe>
-        </div>
-    </div>
-</div>
 
 <!-- JS Libraries -->
 <script src="assets/js/jquery-1.12.4.min.js"></script>
